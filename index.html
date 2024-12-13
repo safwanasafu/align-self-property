@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-leyout</title>
+    <style>
+        .flexbox{
+            display: flex;
+      height: 600px;
+      border: 10px solid #150d0d;
+      align-items: center;
+      gap: 20px;
+        }
+        .flexbox >*{
+            width: 200px;
+            height: 300px;
+            background-color: rgb(74, 200, 158);
+            border: 10px solid #150d0d;
+        }
+        .self{
+            align-self: flex-end;
+        }
+        .sfe{
+            align-self: flex-end; 
+        }
+        .aef{
+            align-self: flex-start;  
+        }
+        .sgre{
+            align-self: flex-start;  
+        }
+        .ryttr{
+            align-self: flex-end;  
+        }
+        .hkmtijiu{
+            align-self: flex-start;  
+        }
+        .b{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(164, 122, 169);
+            border: 10px solid #150d0d;
+        }
+        h1{
+            text-align: center;
+            color: rgb(185, 25, 174);
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>[Align-Self]- PROPERTY OF FLEX</h1>
+    <div class="flexbox">
+        <div class="sfe">
+            <div class="b"></div>
+        </div>
+        <div class="aef">
+            <div class="b"></div>
+        </div>
+        <div class="self">
+            <div class="b"></div>
+        </div>
+        <div class="sgre">
+            <div class="b"></div>
+        </div>
+        <div class="ryttr">
+            <div class="b"></div>
+        </div>
+        <div class="hkmtijiu">
+            <div class="b"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
